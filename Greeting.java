@@ -1,0 +1,16 @@
+package com.project.demo;
+
+import java.util.Scanner;
+
+public class Greeting {
+    private static void  main(String[] args){
+        Scanner input=new Scanner(System.in);
+
+        //propmpt a user to enter a name
+        System.out.println("Enter a name");
+        String name=input.nextLine();
+
+        //display a message using a user input
+        System.out.println("Hello," + name + "!Welcome to Github Classroom!");
+    }
+}
